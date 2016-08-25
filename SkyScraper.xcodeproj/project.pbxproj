@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1025BE31D4BA27000EF96D5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1025BE21D4BA27000EF96D5 /* AppDelegate.swift */; };
+		F1025BE51D4BA27000EF96D5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1025BE41D4BA27000EF96D5 /* ViewController.swift */; };
+		F1025BE81D4BA27000EF96D5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1025BE61D4BA27000EF96D5 /* Main.storyboard */; };
+		F1025BEA1D4BA27000EF96D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1025BE91D4BA27000EF96D5 /* Assets.xcassets */; };
+		F1025BED1D4BA27000EF96D5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1025BEB1D4BA27000EF96D5 /* LaunchScreen.storyboard */; };
+		F1025BF51D4BA37300EF96D5 /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1025BF41D4BA37300EF96D5 /* Passenger.swift */; settings = {ASSET_TAGS = (); }; };
+		F1D58A151D58ADDD00D29ACA /* SkyScraper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D58A141D58ADDD00D29ACA /* SkyScraper.swift */; settings = {ASSET_TAGS = (); }; };
+		F1D58A171D58AEA500D29ACA /* Floor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D58A161D58AEA500D29ACA /* Floor.swift */; settings = {ASSET_TAGS = (); }; };
+		F1D58A191D58D7C300D29ACA /* ProtocolDestinationFloor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D58A181D58D7C300D29ACA /* ProtocolDestinationFloor.swift */; settings = {ASSET_TAGS = (); }; };
+		F1D58A1B1D58FD2300D29ACA /* Elevator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D58A1A1D58FD2300D29ACA /* Elevator.swift */; settings = {ASSET_TAGS = (); }; };
+		F1D58A1D1D5C777800D29ACA /* Array+Exstract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D58A1C1D5C777800D29ACA /* Array+Exstract.swift */; settings = {ASSET_TAGS = (); }; };
+		F1D58A231D60619800D29ACA /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D58A221D60619800D29ACA /* MyTableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		F1D58A251D6107B700D29ACA /* Elevator_Ding.wav in Resources */ = {isa = PBXBuildFile; fileRef = F1D58A241D6107B700D29ACA /* Elevator_Ding.wav */; settings = {ASSET_TAGS = (); }; };
+		F1D58A311D63A4C700D29ACA /* elevator_door.wav in Resources */ = {isa = PBXBuildFile; fileRef = F1D58A301D63A4C700D29ACA /* elevator_door.wav */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F1025BDF1D4BA27000EF96D5 /* SkyScraper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyScraper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1025BE21D4BA27000EF96D5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1025BE41D4BA27000EF96D5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1025BE71D4BA27000EF96D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1025BE91D4BA27000EF96D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F1025BEC1D4BA27000EF96D5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F1025BEE1D4BA27000EF96D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1025BF41D4BA37300EF96D5 /* Passenger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Passenger.swift; sourceTree = "<group>"; };
+		F1D58A141D58ADDD00D29ACA /* SkyScraper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkyScraper.swift; sourceTree = "<group>"; };
+		F1D58A161D58AEA500D29ACA /* Floor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Floor.swift; sourceTree = "<group>"; };
+		F1D58A181D58D7C300D29ACA /* ProtocolDestinationFloor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolDestinationFloor.swift; sourceTree = "<group>"; };
+		F1D58A1A1D58FD2300D29ACA /* Elevator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Elevator.swift; sourceTree = "<group>"; };
+		F1D58A1C1D5C777800D29ACA /* Array+Exstract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Array+Exstract.swift"; sourceTree = "<group>"; };
+		F1D58A221D60619800D29ACA /* MyTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		F1D58A241D6107B700D29ACA /* Elevator_Ding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Elevator_Ding.wav; sourceTree = "<group>"; };
+		F1D58A301D63A4C700D29ACA /* elevator_door.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = elevator_door.wav; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1025BDC1D4BA26F00EF96D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1025BD61D4BA26F00EF96D5 = {
+			isa = PBXGroup;
+			children = (
+				F1025BE11D4BA27000EF96D5 /* SkyScraper */,
+				F1025BE01D4BA27000EF96D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1025BE01D4BA27000EF96D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1025BDF1D4BA27000EF96D5 /* SkyScraper.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1025BE11D4BA27000EF96D5 /* SkyScraper */ = {
+			isa = PBXGroup;
+			children = (
+				F1025BE21D4BA27000EF96D5 /* AppDelegate.swift */,
+				F1025BE41D4BA27000EF96D5 /* ViewController.swift */,
+				F1D58A221D60619800D29ACA /* MyTableViewController.swift */,
+				F1D58A1C1D5C777800D29ACA /* Array+Exstract.swift */,
+				F1D58A181D58D7C300D29ACA /* ProtocolDestinationFloor.swift */,
+				F1025BF41D4BA37300EF96D5 /* Passenger.swift */,
+				F1D58A1A1D58FD2300D29ACA /* Elevator.swift */,
+				F1D58A141D58ADDD00D29ACA /* SkyScraper.swift */,
+				F1D58A161D58AEA500D29ACA /* Floor.swift */,
+				F1025BE61D4BA27000EF96D5 /* Main.storyboard */,
+				F1025BE91D4BA27000EF96D5 /* Assets.xcassets */,
+				F1025BEB1D4BA27000EF96D5 /* LaunchScreen.storyboard */,
+				F1025BEE1D4BA27000EF96D5 /* Info.plist */,
+				F1D58A241D6107B700D29ACA /* Elevator_Ding.wav */,
+				F1D58A301D63A4C700D29ACA /* elevator_door.wav */,
+			);
+			path = SkyScraper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1025BDE1D4BA26F00EF96D5 /* SkyScraper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1025BF11D4BA27000EF96D5 /* Build configuration list for PBXNativeTarget "SkyScraper" */;
+			buildPhases = (
+				F1025BDB1D4BA26F00EF96D5 /* Sources */,
+				F1025BDC1D4BA26F00EF96D5 /* Frameworks */,
+				F1025BDD1D4BA26F00EF96D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkyScraper;
+			productName = SkyScraper;
+			productReference = F1025BDF1D4BA27000EF96D5 /* SkyScraper.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1025BD71D4BA26F00EF96D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = MyCompany;
+				TargetAttributes = {
+					F1025BDE1D4BA26F00EF96D5 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = JP54Y47UJ6;
+					};
+				};
+			};
+			buildConfigurationList = F1025BDA1D4BA26F00EF96D5 /* Build configuration list for PBXProject "SkyScraper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1025BD61D4BA26F00EF96D5;
+			productRefGroup = F1025BE01D4BA27000EF96D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1025BDE1D4BA26F00EF96D5 /* SkyScraper */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1025BDD1D4BA26F00EF96D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1D58A251D6107B700D29ACA /* Elevator_Ding.wav in Resources */,
+				F1D58A311D63A4C700D29ACA /* elevator_door.wav in Resources */,
+				F1025BED1D4BA27000EF96D5 /* LaunchScreen.storyboard in Resources */,
+				F1025BEA1D4BA27000EF96D5 /* Assets.xcassets in Resources */,
+				F1025BE81D4BA27000EF96D5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1025BDB1D4BA26F00EF96D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1025BE51D4BA27000EF96D5 /* ViewController.swift in Sources */,
+				F1D58A191D58D7C300D29ACA /* ProtocolDestinationFloor.swift in Sources */,
+				F1025BE31D4BA27000EF96D5 /* AppDelegate.swift in Sources */,
+				F1D58A171D58AEA500D29ACA /* Floor.swift in Sources */,
+				F1D58A231D60619800D29ACA /* MyTableViewController.swift in Sources */,
+				F1D58A151D58ADDD00D29ACA /* SkyScraper.swift in Sources */,
+				F1D58A1B1D58FD2300D29ACA /* Elevator.swift in Sources */,
+				F1025BF51D4BA37300EF96D5 /* Passenger.swift in Sources */,
+				F1D58A1D1D5C777800D29ACA /* Array+Exstract.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F1025BE61D4BA27000EF96D5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1025BE71D4BA27000EF96D5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1025BEB1D4BA27000EF96D5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1025BEC1D4BA27000EF96D5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1025BEF1D4BA27000EF96D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1025BF01D4BA27000EF96D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1025BF21D4BA27000EF96D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkyScraper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = book.coredate.SkyScraper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1025BF31D4BA27000EF96D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SkyScraper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = book.coredate.SkyScraper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1025BDA1D4BA26F00EF96D5 /* Build configuration list for PBXProject "SkyScraper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1025BEF1D4BA27000EF96D5 /* Debug */,
+				F1025BF01D4BA27000EF96D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1025BF11D4BA27000EF96D5 /* Build configuration list for PBXNativeTarget "SkyScraper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1025BF21D4BA27000EF96D5 /* Debug */,
+				F1025BF31D4BA27000EF96D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1025BD71D4BA26F00EF96D5 /* Project object */;
+}
